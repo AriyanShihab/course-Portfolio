@@ -1,0 +1,40 @@
+@media (max-width: 768px) {
+    .banner {
+        flex-direction: column;
+    }
+    .sideber {
+        width: 100%;
+    }
+    .bannerContent {
+        width: 100%;
+        margin-top: 30px;
+        flex-direction: column-reverse;
+        padding: 20px;
+    }
+    .bannerContent>* {
+        width: 100%;
+    }
+    .dream-parent {
+        flex-direction: column;
+    }
+    .dream-left {
+        margin-right: 0;
+    }
+    .service-parent {
+        flex-direction: column;
+    }
+    .service-card {
+        max-width: 100%;
+        margin: 30px 0;
+    }
+    .contact-parent {
+        flex-direction: column;
+    }
+    .contact-left {
+        width: 100%;
+    }
+    .contact-right {
+        width: 100%;
+        margin-top: 50px;
+    }
+}

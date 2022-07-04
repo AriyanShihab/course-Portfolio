@@ -1,0 +1,297 @@
+/* css reset */
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+/* common css */
+
+.m-5 {
+    margin-top: 80px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.primary {
+    color: var(--primary-color);
+}
+
+.full-width {
+    width: 100% !important;
+    margin-top: 20px;
+}
+
+:root {
+    --mainBackground: #f9fafe;
+    --secondaryBackground: #fff;
+    --primary-color: #fa6957;
+    --heading: #232429;
+    --pragraph: #222238;
+    --headingFont: 28px;
+    --subHeading: 22px;
+    --pragrapghText: 17px;
+    --borderColor: #e7ebf4;
+}
+
+body {
+    background: var(--mainBackground);
+    margin: 10px;
+    padding: 10px;
+}
+
+.shadow {
+    background: var(--secondaryBackground);
+    box-shadow: 10px 10px 24px #eaebef, -10px -10px 24px #ffffff;
+    border: 1px solid var(--borderColor);
+    border-radius: 4px;
+}
+
+.defualt-btn {
+    display: inline-block;
+    padding: 12px 28px;
+    background-image: linear-gradient(to right, #fa6957, #ff4128);
+    color: var(--secondaryBackground);
+    margin: 30px 0px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+/* main container */
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+
+/* banner start */
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.sideber {
+    display: grid;
+    place-items: center;
+    width: 25%;
+    margin-right: 20px;
+    background: var(--secondaryBackground);
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid var(--borderColor);
+}
+
+.sideber p {
+    color: var(--pragraph);
+    font-size: var(--pragrapghText);
+}
+
+.icon-box i {
+    font-size: var(--subHeading);
+    margin: 10px;
+    color: var(--primary-color);
+}
+
+.name {
+    font-size: var(--headingFont);
+}
+
+.rounded {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.bannerContent {
+    width: 70%;
+    padding: 100px 40px;
+    position: relative;
+    z-index: 2;
+    background: var(--secondaryBackground);
+    display: flex;
+    align-items: center;
+}
+
+.banner-sub-title {
+    font-size: var(--subHeading);
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.bannerContent p {
+    color: var(--pragraph);
+    font-size: var(--pragrapghText);
+    line-height: 20px;
+}
+
+.banner-left {
+    max-width: 50%;
+}
+
+
+/* banner end */
+
+
+/* dream start */
+
+.dream-head {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.dream-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+}
+
+.dream-left {
+    min-width: 50%;
+    margin-right: 20px;
+}
+
+.dream-left img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.fancy-image {
+    transform: rotate(5deg);
+    margin-bottom: 30px;
+}
+
+.dream-right h2 {
+    color: var(--primary-color);
+    margin: 30px 0;
+}
+
+.dream-right p {
+    line-height: 25px;
+    font-size: var(--pragrapghText);
+    color: var(--pragraph);
+}
+
+
+/* dream end */
+
+
+/* servise start */
+
+.services h1 {
+    color: var(--heading);
+    font-size: var(--headingFont);
+    margin: 40px 0;
+    text-align: center;
+}
+
+.service-parent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-card {
+    max-width: 30%;
+    padding: 15px;
+    transition: 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.service-card h3 {
+    margin: 15px 0;
+}
+
+.service-card p {
+    line-height: 25px;
+}
+
+.bg-primary {
+    background: var(--primary-color);
+}
+
+.bg-primary>* {
+    color: var(--secondaryBackground);
+}
+
+
+/* servise end */
+
+
+/* contact start */
+
+.contact-left {
+    width: 40%;
+}
+
+.contact-left p {
+    line-height: 25px;
+}
+
+.round {
+    width: 50%;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contact-right {
+    width: 60%;
+}
+
+.contact-form input {
+    width: 80%;
+    margin: 20px auto;
+    display: block;
+    padding: 20px;
+    background: var(--borderColor);
+    border-radius: 4px;
+}
+
+.contact-form button {
+    width: 30%;
+    margin: 20px auto;
+    display: block;
+    padding: 10px;
+    background: var(--primary-color);
+    text-align: center;
+    font-size: 22px;
+    color: var(--borderColor);
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.contact-parent {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* contact end */
+
+footer {
+    margin: 50px 0;
+}
+
+footer p {
+    text-align: center;
+    font-size: 14px;
+}
