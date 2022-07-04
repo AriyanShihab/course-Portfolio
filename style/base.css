@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
 /* css reset */
 
 * {
@@ -8,7 +10,7 @@
     border: none;
     outline: none;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: "Lato", sans-serif;
 }
 
 
